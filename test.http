@@ -1,0 +1,15 @@
+### 
+GET http://localhost:3000/api/public
+
+### 
+GET http://localhost:3000/api/secure
+X-Api-Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjcGZfY2xpIjozMjcyOTI2NzgwOCwiZXhwaXJlcyI6MTcyNzE0MDc0NCwic3ViIjoiamVmIn0.YTUK3L9FHiC60MVwv-CnfZwN120xLO0DQrXXMZgG_O0
+
+### 
+GET http://localhost:3000/api/auth 
+Content-Type: application/json
+
+{
+    "username": "jef",
+    "password": "123"
+}
